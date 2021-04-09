@@ -1,7 +1,7 @@
 {
-	"name": "@hdn/extensions",
+	"name": "@hdntecnologiabr/extensions",
 	"private": true,
-	"description": "A monorepo for dealing with all gymifie's extensions used across repositories",
+	"description": "A monorepo for dealing with all hdn's extensions used across repositories",
 	"workspaces": [
 		"packages/*"
 	],

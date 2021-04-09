@@ -5,21 +5,21 @@
     "access": "public"
   },
   "type": "module",
-  "description": "A default repository for dealing with all gymifie's databses",
+  "description": "A default repository for dealing with all hdn's databses",
   "keywords": [
     "db",
     "database"
   ],
   "author": "mtsmachado8 <mtsmachado8@gmail.com>",
-  "homepage": "https://github.com/gymifie/extensions",
+  "homepage": "https://github.com/hdntecnologiabr/extensions",
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gymifie/extensions.git"
+    "url": "git+https://github.com/hdntecnologiabr/extensions.git"
   },
   "bugs": {
-    "url": "https://github.com/gymifie/extensions/issues"
+    "url": "https://github.com/hdntecnologiabr/extensions/issues"
   },
   "dependencies": {
     "@hdn/logger": "^1.0.0",
@@ -30,5 +30,6 @@
     "@hdn/logger": "^0.0.4",
     "mongoose": "^5.9.5",
     "winston": "^3.2.1"
-  }
+  },
+  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
 }

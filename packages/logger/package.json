@@ -5,21 +5,21 @@
     "access": "public"
   },
   "type": "module",
-  "description": "A default logger for dealing with all gymifie's repositories",
+  "description": "A default logger for dealing with all hdn's repositories",
   "keywords": [
     "log",
     "logger"
   ],
   "author": "mtsmachado8 <mtsmachado8@gmail.com>",
-  "homepage": "https://github.com/gymifie/extensions",
+  "homepage": "https://github.com/hdntecnologiabr/extensions",
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gymifie/extensions.git"
+    "url": "git+https://github.com/hdntecnologiabr/extensions.git"
   },
   "bugs": {
-    "url": "https://github.com/gymifie/extensions/issues"
+    "url": "https://github.com/hdntecnologiabr/extensions/issues"
   },
   "dependencies": {
     "setimmediate": "1.0.5",
@@ -28,5 +28,6 @@
   },
   "peerDependencies": {
     "winston": "^3.2.1"
-  }
+  },
+  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
 }

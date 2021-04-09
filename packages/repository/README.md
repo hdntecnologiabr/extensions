@@ -8,7 +8,7 @@ DATABASE_USER || ''
 DATABASE_PASS || ''  
 DATABASE_HOST || '127.0.0.1'  
 DATABASE_PORT || '27017'  
-DATABASE_NAME || 'gymifie'  
+DATABASE_NAME || 'hdn'  
 DATABASE_SRV  || false
 
 ## Usage

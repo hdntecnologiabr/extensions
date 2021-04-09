@@ -1,5 +1,5 @@
-# Contributing to @hdn/extensions
-Thanks for contributing to **@hdn/extensions**!
+# Contributing to @hdntecnologiabr/extensions
+Thanks for contributing to **@hdntecnologiabr/extensions**!
 
 As a contributor, here are the guidelines we would like you to follow:
 - [Valid commit message(s)](#commit-message-guidelines)

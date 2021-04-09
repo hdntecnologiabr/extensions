@@ -5,15 +5,16 @@
     "access": "public"
   },
   "type": "module",
-  "description": "A error package for dealing with all gymifie's errors both on backend and frontend",
+  "description": "A error package for dealing with all hdn's errors both on backend and frontend",
   "author": "mtsmachado8 <mtsmachado8@gmail.com>",
-  "homepage": "https://github.com/gymifie/extensions",
+  "homepage": "https://github.com/hdntecnologiabr/extensions",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gymifie/extensions.git"
+    "url": "git+https://github.com/hdntecnologiabr/extensions.git"
   },
   "bugs": {
-    "url": "https://github.com/gymifie/extensions/issues"
-  }
+    "url": "https://github.com/hdntecnologiabr/extensions/issues"
+  },
+  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
 }
