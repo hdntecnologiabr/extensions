@@ -5,7 +5,7 @@ Módulo usado para logs da aplicação
 ## Usage backend
 
 ```
-import log from '@hdn/logger');
+import log from '@hdntecnologiabr/logger');
 log.info('message')
 ```
 

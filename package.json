@@ -1,7 +1,7 @@
 {
 	"name": "@hdntecnologiabr/extensions",
 	"private": true,
-	"description": "A monorepo for dealing with all hdn's extensions used across repositories",
+	"description": "A monorepo for dealing with all hdntecnologiabr's extensions used across repositories",
 	"workspaces": [
 		"packages/*"
 	],

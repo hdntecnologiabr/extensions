@@ -1,5 +1,5 @@
 # extensions
-A monorepo for dealing with all hdn's extensions used across repositories
+A monorepo for dealing with all hdntecnologiabr's extensions used across repositories
 
 ## Publishing
 Para publicar uma nova versão de cada package modificado:

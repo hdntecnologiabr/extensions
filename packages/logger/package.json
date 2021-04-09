@@ -1,11 +1,11 @@
 {
-  "name": "@hdn/logger",
+  "name": "@hdntecnologiabr/logger",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
   "type": "module",
-  "description": "A default logger for dealing with all hdn's repositories",
+  "description": "A default logger for dealing with all hdntecnologiabr's repositories",
   "keywords": [
     "log",
     "logger"
@@ -29,5 +29,5 @@
   "peerDependencies": {
     "winston": "^3.2.1"
   },
-  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
+  "gitHead": "fc813c6fae7d091160662625e96a8eb7d27ac50e"
 }

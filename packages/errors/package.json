@@ -1,11 +1,11 @@
 {
-  "name": "@hdn/errors",
+  "name": "@hdntecnologiabr/errors",
   "version": "1.0.1-alpha.0",
   "publishConfig": {
     "access": "public"
   },
   "type": "module",
-  "description": "A error package for dealing with all hdn's errors both on backend and frontend",
+  "description": "A error package for dealing with all hdntecnologiabr's errors both on backend and frontend",
   "author": "mtsmachado8 <mtsmachado8@gmail.com>",
   "homepage": "https://github.com/hdntecnologiabr/extensions",
   "license": "ISC",
@@ -16,5 +16,5 @@
   "bugs": {
     "url": "https://github.com/hdntecnologiabr/extensions/issues"
   },
-  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
+  "gitHead": "fc813c6fae7d091160662625e96a8eb7d27ac50e"
 }

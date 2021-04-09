@@ -8,12 +8,12 @@ DATABASE_USER || ''
 DATABASE_PASS || ''  
 DATABASE_HOST || '127.0.0.1'  
 DATABASE_PORT || '27017'  
-DATABASE_NAME || 'hdn'  
+DATABASE_NAME || 'hdntecnologiabr'  
 DATABASE_SRV  || false
 
 ## Usage
 ```
-import repository from '@hdn/repository'
+import repository from '@hdntecnologiabr/repository'
 
 repository.start()
   .then(() => {

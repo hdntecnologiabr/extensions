@@ -12,7 +12,7 @@ log.info('message')
 ## Usage ESM
 
 ```
-import log from '@hdn/logger');
+import log from '@hdntecnologiabr/logger');
 log.info('message')
 ```
 

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import log from '@hdn/logger'
+import log from '@hdntecnologiabr/logger'
 import { getUrlFromEnv } from './mongo-utils'
 
 let connectionPool = null

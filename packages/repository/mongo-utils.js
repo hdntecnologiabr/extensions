@@ -3,7 +3,7 @@ const getUrlFromEnv = () => {
   const pass = process.env.DATABASE_PASS || ''
   const host = process.env.DATABASE_HOST || '127.0.0.1'
   const port = process.env.DATABASE_PORT || '27017'
-  const name = process.env.DATABASE_NAME || 'hdn'
+  const name = process.env.DATABASE_NAME || 'hdntecnologiabr'
   const srv = process.env.DATABASE_SRV
   const isSrv = srv === 'true'
 

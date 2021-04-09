@@ -1,11 +1,11 @@
 {
-  "name": "@hdn/repository",
+  "name": "@hdntecnologiabr/repository",
   "version": "1.0.1-alpha.0",
   "publishConfig": {
     "access": "public"
   },
   "type": "module",
-  "description": "A default repository for dealing with all hdn's databses",
+  "description": "A default repository for dealing with all hdntecnologiabr's databses",
   "keywords": [
     "db",
     "database"
@@ -22,14 +22,14 @@
     "url": "https://github.com/hdntecnologiabr/extensions/issues"
   },
   "dependencies": {
-    "@hdn/logger": "^1.0.0",
+    "@hdntecnologiabr/logger": "^1.0.0",
     "mongoose": "^5.9.5",
     "winston": "^3.2.1"
   },
   "peerDependencies": {
-    "@hdn/logger": "^0.0.4",
+    "@hdntecnologiabr/logger": "^0.0.4",
     "mongoose": "^5.9.5",
     "winston": "^3.2.1"
   },
-  "gitHead": "9c8877b4ab87a878405f2cdb2eb395a5e6c2fd7f"
+  "gitHead": "fc813c6fae7d091160662625e96a8eb7d27ac50e"
 }
