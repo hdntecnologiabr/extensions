@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "type": "module",
+  "type": "commonjs",
   "description": "A default logger for dealing with all hdntecnologiabr's repositories",
   "keywords": [
     "log",
