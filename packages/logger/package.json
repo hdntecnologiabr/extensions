@@ -1,0 +1,32 @@
+{
+  "name": "@hdn/logger",
+  "version": "1.0.0-alpha.7",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "description": "A default logger for dealing with all gymifie's repositories",
+  "keywords": [
+    "log",
+    "logger"
+  ],
+  "author": "mtsmachado8 <mtsmachado8@gmail.com>",
+  "homepage": "https://github.com/gymifie/extensions",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gymifie/extensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gymifie/extensions/issues"
+  },
+  "dependencies": {
+    "setimmediate": "1.0.5",
+    "winston": "^3.2.1",
+    "winston-transport": "^4.3.0"
+  },
+  "peerDependencies": {
+    "winston": "^3.2.1"
+  }
+}

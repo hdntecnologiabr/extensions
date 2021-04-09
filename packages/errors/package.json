@@ -1,0 +1,19 @@
+{
+  "name": "@hdn/errors",
+  "version": "1.0.0-alpha.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "description": "A error package for dealing with all gymifie's errors both on backend and frontend",
+  "author": "mtsmachado8 <mtsmachado8@gmail.com>",
+  "homepage": "https://github.com/gymifie/extensions",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gymifie/extensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gymifie/extensions/issues"
+  }
+}
