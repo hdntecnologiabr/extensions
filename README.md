@@ -16,4 +16,4 @@ yarn lerna:version
 ```
 - O último comando fará push das tags no git
 - Abra o pull request e merge para a branch master
-- Acompanhe no github o progresso e deploy para o github package registry, tendo em mente que todas as tags do github que nao existirem serão publicadas.
+- Acompanhe no github o progresso e deploy para o npm registry, tendo em mente que todas as tags do npm que nao existirem serão publicadas.
