@@ -1,6 +1,6 @@
-import log from './node'
+const log = require('./node')
 
-export default log
+module.exports = log
 
 // TODO make it work for fronted
 // const isBrowser = !!window

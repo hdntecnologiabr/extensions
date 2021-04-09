@@ -1,5 +1,5 @@
-import { hostname } from 'os'
-import { createLogger, transports, format } from 'winston'
+const { hostname } = require('os')
+const { createLogger, transports, format } = require('winston')
 
 const { combine, colorize, printf, timestamp, errors, json } = format
 const LEVEL = process.env.LOG_LEVEL
@@ -29,5 +29,4 @@ const log = createLogger({
     })
   ]
 })
-
-export default log
+module.exports = log
