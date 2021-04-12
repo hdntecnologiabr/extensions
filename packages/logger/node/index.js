@@ -17,16 +17,29 @@ const jsonFormat = combine(
   json()
 )
 
+const isProduction = NODE_ENV.includes('production')
+
+const getTransports = () => {
+  return isProduction ? [
+    new transports.Console({
+      handleExceptions: true,
+      format: colorFormat
+    }),
+    new transports.File({ filename: 'error.log', level: 'error', format: jsonFormat }),
+    new transports.File({ filename: 'combined.log', format: jsonFormat })
+  ] : [
+    new transports.Console({
+      handleExceptions: true,
+      format: colorFormat
+    })
+  ]
+}
+
 const log = createLogger({
   level: LEVEL || 'silly',
-  format: NODE_ENV === 'production' ? jsonFormat : colorFormat,
   defaultMeta: {
     hostname: hostname()
   },
-  transports: [
-    new transports.Console({
-      handleExceptions: true
-    })
-  ]
+  transports: getTransports()
 })
 module.exports = log
