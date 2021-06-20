@@ -1,12 +1,14 @@
 {
     "root": true,
+    "extends": [
+      "standard",
+      "plugin:jest/recommended"
+    ],
     "env": {
+      "jest/globals": true,
       "es6": true,
       "node": true
     },
-    "extends": [
-      "standard"
-    ],
     "globals": {
       "Atomics": "readonly",
       "SharedArrayBuffer": "readonly"

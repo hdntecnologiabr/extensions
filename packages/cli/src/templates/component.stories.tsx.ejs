@@ -1,0 +1,30 @@
+import { <%= props.name %>, <%= props.name %>Props } from './<%= props.name %>'
+import React from 'react'
+import { Meta } from '@storybook/react/types-6-0'
+import { Story } from '@storybook/react'
+
+export default {
+  title: 'Elements/<%= props.name %>',
+  component: <%= props.name %>,
+  /* argTypes: {
+    size: {
+      options: ['xs', 'sm', 'md', 'lg'],
+      control: { type: 'radio' }
+    }
+  },
+  parameters: {
+    controls: {
+      include: [
+        'size',
+        'variant',
+      ]
+    }
+  } */
+} as Meta
+
+const Template: Story<<%= props.name %>Props> = (args) => <<%= props.name %> {...args}/>
+
+export const Default = Template.bind({})
+Default.args = {
+  prop1: 'test'
+}

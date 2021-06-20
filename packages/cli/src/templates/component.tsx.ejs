@@ -1,0 +1,14 @@
+import { FC } from "react"
+
+export type <%= props.name %>Props = {
+  prop1: string
+  children?: ReactNode
+}
+
+export function <%= props.name %>({ prop1, ...props } : <%= props.name %>Props) {
+  return (
+    <div>
+      <%= props.name %>
+    </div>
+  )
+}
